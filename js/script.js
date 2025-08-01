@@ -136,8 +136,8 @@ shareBtn.onclick = async () => {
   if (navigator.share) {
     try {
       await navigator.share({
-        title: "Check this out!",
-        text: "I wanted to share this link with you",
+        title: "Dê uma olhada nessa loja de Colecionáveis!",
+        text: "Queria compartilhar esse link com você sobre essa loja de Colecionáveis de Figures",
         url: currentLink,
       });
     } catch (err) {
